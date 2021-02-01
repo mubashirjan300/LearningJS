@@ -84,3 +84,7 @@ let n2 = parseFloat('85.0978');
 console.log(n2.toFixed(6), (typeof n2));
 
 //zamara taspakoo
+
+let markss = parseFloat('54');
+markss = markss.toString();
+console.log(markss,(typeof markss));

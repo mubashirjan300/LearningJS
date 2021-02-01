@@ -82,3 +82,5 @@ console.log(n1.toFixed(7), (typeof n1));
 
 let n2 = parseFloat('85.0978');
 console.log(n2.toFixed(6), (typeof n2));
+
+//zamara taspakoo

@@ -85,6 +85,20 @@ console.log(n2.toFixed(6), (typeof n2));
 
 //zamara taspakoo
 
-let markss = parseFloat('54');
-markss = markss.toString();
-console.log(markss,(typeof markss));
+let markss = parseFloat('54.04888');
+// markss = markss.toString();
+console.log(markss.toFixed(5),(typeof markss));
+
+//TYPE COERCION
+//If we wanna add a string with a number or 
+// a number with a string
+
+
+let myStr = "546";
+let myNum = 44;
+console.log(myStr + myNum); //output will be 54644
+
+//If we convert the myStr into number; the output will be different
+let myStr1 = Number("546");
+let myNum1 = 444;
+console.log(myStr1 + myNum1);

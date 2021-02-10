@@ -24,3 +24,7 @@ console.log(arr1.length); // GIVES THE LENGTH OF AN ARRAY - 4
 
 console.log(Array.isArray(arr1)); // IS ARRAY - GIVES THE VALUE TRUE
 console.log(Array.isArray('dfdfsf')); // NOT ARRAY - GIVES THE VALUE FALSE
+
+//TO CHANGE A PARTICULAR OBJECT IN AN ARRAY
+arr1[3] = 'Papaya';
+console.log(arr1);

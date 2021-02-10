@@ -71,6 +71,8 @@ let number = parseFloat('54.88');
 // number = number.toString();
 console.log(number.toFixed(5), (typeof number));
 
+//toFixed() function is used to show the number of int after decimal
+
 //CONVERTING NUMBER INTO FLOAT USING 'parseFloat() function
 // -----------------------------------------------------------
 

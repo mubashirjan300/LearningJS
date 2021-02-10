@@ -1,5 +1,8 @@
+//ARRAYS
+// ==========
+
 const fruits = ['Orange', 'Banana', 'Watermelon'];
-const marks = [54, 45, 87, 66];
+let marks = [54, 45, 87, 66];
 const mixed = ['Mango', 73, 665, [4, 10, 90]];
 
 // console.log(fruits);
@@ -36,27 +39,54 @@ let arrayy = arr1[0];
 // console.log('the element is :', arrayy);
 
 //getting an index of an array
-let marksValue = marks.indexOf(87); 
+let marksValue = marks.indexOf(87); //method
 // console.log(marksValue);
 
 // to insert an element at END of array
-marks.push(6455);
+marks.push(6455); //method
 // console.log(marks);
 
 //to insert an element at the BEGINNING of an array
-marks.unshift('ladyFinger', [34, 23]);
+marks.unshift('ladyFinger', [34, 23]); //method
 // console.log(marks);
 
 // to remove an element from the end of an array
-marks.pop();
+marks.pop(); //method
 // console.log(marks);
 
 //to remove an element from the start of an array
-marks.shift();
+marks.shift(); //method
 // console.log(marks);
 
 // to remove an specific elements from an array
-marks.splice(1,2); // this method start removing elements from 1 and remove two additional 
-console.log(marks);
+marks.splice(1,2); // this method start removing elements from 1 and remove a total of two elements 
+// console.log(marks);
 
+// to reverse the elements of an array
+marks.reverse(); //method
+// console.log(marks);
 
+// to concate arrays
+let marks2 = [44, 77, 99];
+mmarks = marks.concat(marks2);
+// console.log(mmarks);
+
+// OBJECTS
+//USE ARRAYS WHEN WE WANT TO STORE ELEMENTS
+//USE OBJECTS WHEN WE WANT TO STORE KEY:VALUE PAIR
+// ==========
+
+let myobj = {
+    name : 'Mubashir',
+    age : 31,
+    employ : 'active',
+    residence : [12, 32, 99]
+}
+
+// console.log(myobj);
+// console.log('My name is : ' + ' ' +myobj.name + ' and I am ' + myobj.age + ' years old');
+// console.log(myobj.residence);
+
+//to access the elements inside an object, there are two methods
+console.log(myobj.name); //method 1
+console.log(myobj['residence']); // we have to use apostrophe // method 2

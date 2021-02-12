@@ -59,7 +59,8 @@ marks.shift(); //method
 // console.log(marks);
 
 // to remove an specific elements from an array
-marks.splice(1,2); // this method start removing elements from 1 and remove a total of two elements 
+marks.splice(1,2); // this method start removing elements from 1 
+//and remove a total of two elements 
 // console.log(marks);
 
 // to reverse the elements of an array

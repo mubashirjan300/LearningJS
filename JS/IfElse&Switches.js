@@ -36,11 +36,47 @@ This is because == operator just check the VALUE assigned to a var
 
  //TO CHECK IF A PARTICULAR VARIABLE IS DEFINED OR NOT
 
-let msg = 45;
+let msg = 88;
 if(typeof msg !== 'undefined'){
-    console.log('Message is defined and the type is a String')
+    // console.log('Message is defined and the type is an Integer')
 }
 
 else{
-    console.log('message is not defined')
+    // console.log('message is not defined')
+}
+
+//USING BOOLEAN 
+let doesDrive = true;
+if(doesDrive==true){
+    // console.log('I can drive')
+}
+else{
+    // console.log('I cannot drive')
+}
+
+//USING AND
+
+const umar = 44;
+const drive = true;
+if(umar>21 && drive==true){
+    // console.log('I can drive')
+}
+else{
+    // console.log('I cannot drive')
+}
+
+// USING OR ||
+
+let ag = 4;
+let gender = 'male';
+let adult = true;
+
+if(ag>4 || gender =='male'){
+    console.log('His age is Ok and he can be admitted to skool')
+}
+else if(gender=='male' && adult==true){
+    console.log('He can be admitted')
+}
+else {
+    console.log('She cannot be admitted')
 }

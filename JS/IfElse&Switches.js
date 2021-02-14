@@ -67,16 +67,51 @@ else{
 
 // USING OR ||
 
-let ag = 4;
+let ag = 7;
 let gender = 'male';
 let adult = true;
 
-if(ag>4 || gender =='male'){
-    console.log('His age is Ok and he can be admitted to skool')
+// if(ag>4 || gender =='male'){
+//     console.log('His age is Ok and he can be admitted to skool')
+// }
+// else if(gender=='male' && adult==true){
+//     console.log('He can be admitted')
+// }
+// else {
+//     console.log('She cannot be admitted')
+// }
+
+// USING TURNARY OPERATOR
+
+// console.log(ag==4? 'Age is 4' : 'Age is different');
+
+// SWITCH STATEMENTS
+
+// let agee=38;
+// switch (agee) {
+//     case 18:
+//         console.log('You are 18yrs old');
+//         break;
+//     case 28:
+//         console.log('You are 28');
+//         break;
+//     case 38:
+//         console.log('You are 38');
+//         break;
+
+//     default:
+//         console.log('You are not eligible');
+//         break;
+// }
+
+let x=new Date().getDay() //getDay() is a library function for Date(). the getDay() method returns the weekday as a number between 0 and 6
+switch(x){
+    case 0:
+        console.log('Today is Sunday');
+        break;
+    case 6:
+        console.log('Today is Saturday');
+        break;
+        
 }
-else if(gender=='male' && adult==true){
-    console.log('He can be admitted')
-}
-else {
-    console.log('She cannot be admitted')
-}
+console.log(x)
